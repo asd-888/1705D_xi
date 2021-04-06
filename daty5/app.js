@@ -3,7 +3,7 @@
  * @Author: 席鹏昊
  * @Date: 2019-11-07 13:57:04
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-04-06 18:57:53
+ * @LastEditTime: 2021-04-06 19:13:52
  * @Description: 
  */
 const child_process = require("child_process");
@@ -12,7 +12,7 @@ const fs = require("fs");
 const path = require("path");
 
 let pathName = path.join(__dirname, process.argv[2])
-console.log(process.argv[2],"+++++++")
+
 let chilPath=childConter()
 function childConter() {
     if (fs.existsSync(pathName)) {

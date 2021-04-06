@@ -1,8 +1,8 @@
 /*
  * @Author: 席鹏昊
  * @Date: 2019-11-13 14:07:55
- * @LastEditors: 席鹏昊
- * @LastEditTime: 2019-11-13 19:35:03
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-04-06 19:13:21
  * @Description: 
  */
 const Koa=require("koa");
@@ -15,5 +15,7 @@ app.use(bdoyparser())
 app.use(query())
 app.use(router.routes())
 app.listen(3000,()=>{
-    console.log("服务启动成功")
+    console.log("服务启动失败 ，再次确认")
 })
+
+let a="试一试"
